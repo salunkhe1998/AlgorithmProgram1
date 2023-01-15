@@ -1,13 +1,15 @@
-﻿namespace SortingTechniques
+﻿namespace SortingTechniques1
 {
     public class Program
     {
         public static void Main(string[] args)
         {
-            String str = "DOG";
-            int n = str.Length;
+            String s = "ABC";
+            String answer = "";
             Console.Write("\nAll possible strings are : ");
-            PermutationOfString.usingIterativeMethod(str, 0, n - 1);
+            PermutationOfStringUsingRecursiveApproach.RecursiveApproach(s, answer);
+
         }
     }
 }
+
