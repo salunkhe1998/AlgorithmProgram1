@@ -4,7 +4,10 @@
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("***** Welcome to Algorithm Problems. *****");
+            String str = "DOG";
+            int n = str.Length;
+            Console.Write("\nAll possible strings are : ");
+            PermutationOfString.usingIterativeMethod(str, 0, n - 1);
         }
     }
 }
